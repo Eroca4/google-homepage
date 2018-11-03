@@ -1,0 +1,158 @@
+body{
+    font-family:Lato, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header{
+    margin:0;
+    padding:0;
+    border-bottom:1px solid #e6e6e6;
+}
+
+#google-logo h1 span{
+    font-size:34px;
+    letter-spacing:0px;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+#google-logo h1 span:nth-child(1){
+    color:blue;
+    margin-left:10px;
+}
+
+#google-logo h1 span:nth-child(2){
+    color:red;
+}
+
+#google-logo h1 span:nth-child(3){
+    color:#f4c20d;
+}
+
+#google-logo h1 span:nth-child(4){
+    color:blue;
+}
+
+#google-logo h1 span:nth-child(5){
+    color:green;
+}
+
+#google-logo h1 span:nth-child(6){
+    color:red;
+}
+
+
+
+#google-logo{
+    display:inline;
+}
+
+
+.search-bar{
+    background-color:white;
+    border:1px solid rgb(214, 214, 214);
+    margin:auto;
+    box-shadow: 0px 1px 1px 0px #888888;
+    float:left;
+    display:flex;
+    margin-left:2%;
+    align-content: stretch;
+    width:40%;
+}
+
+.search-bar input[type="text"]{
+    border:none;
+    margin:10px;
+    flex:8;
+}
+
+.search-bar img{
+    flex:2;
+}
+
+.sign_apps{
+    display:flex;
+    float:right;
+    align-content:center;
+}
+
+.sign_apps img{
+    margin-right:20px;
+    align-self:center;
+}
+.sign_apps a{
+    background-color:rgba(61, 71, 214, 0.836);
+    color:white;
+    padding:8px;
+    margin-right:20px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.clr{
+    content:"";
+    clear:both;
+}
+header ul{
+    margin:30px 0px 0px 150px;
+    font-size:14px;
+    margin-bottom:15px;
+    float:left;
+}
+
+header ul a{
+    text-decoration:none;
+    color:rgb(92, 91, 91);
+    text-align:center;
+    margin-right:10px;
+}
+
+
+header ul a:hover{
+    color:black;
+}
+
+
+header ul li{
+    list-style:none;
+    display:inline;
+    width:100%;
+}
+
+main{
+    width:38%;
+    margin: 0 0 0 11%;
+}
+main h3{
+    font-weight:normal;
+    margin-top:50px;
+}
+
+/* VIDEO BLOCK */
+
+
+.videos-container{
+    display:flex;
+    justify-content:space-between;
+}
+
+.video-block{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    margin-right:10px;
+}
+
+.video-block img{
+    width:100%;
+    height:100px;
+}
+
+.video-author{
+    color:rgb(138, 138, 138);
+    font-size:12px;
+}
+
+
