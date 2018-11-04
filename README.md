@@ -1,3 +1,3 @@
 # google-homepage
 
-This will be a project on rebuilding a google page.
+Google page result with HTML / CSS.
